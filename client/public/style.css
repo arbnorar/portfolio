@@ -1,0 +1,97 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&display=swap');
+
+body {
+    background-color: #070707;
+    font-family: 'Roboto Condensed', sans-serif;
+}
+
+#app {
+    display: flex;
+    flex-direction: row; 
+    justify-content: center; 
+    align-items: center;
+    height: 95vh;
+    width: 95vw;
+}
+  .nav-link {
+    background-color: #070707 !important;
+    color: #686868;
+}
+
+.nav-link>li>a {
+    background-color: #666 !important;
+    color: #fff;
+}
+
+a:hover {
+    color: #fff;
+}
+.nav-link {
+    writing-mode: sideways-lr;
+    text-orientation: mixed;
+    margin: 15px 40px;
+    text-transform:uppercase;
+    letter-spacing: 2px;
+    font-size: 18px;
+}
+
+.tab-content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.tab-content::before,
+.tab-content::after {
+    content: '';
+    display: block;
+    height: 550px;
+    border: 1px solid #a09e9e;
+}
+
+.tab-pane {
+    padding: 35px;
+    min-width: 95% !important;
+}
+
+.occ {
+    font-style: italic;
+    color: #686868;
+}
+.desc {
+    width: 95%;
+    color: #B8B8B8;
+    margin-top: 20px;
+    
+}
+.name {
+    font-size: 60px;
+    color: #fff;
+    line-height: 2.7rem;
+    filter: drop-shadow(0 0 0.10rem #686868);
+}
+
+.projectsContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.card {
+    margin: 15px;
+    background-color: #070707;
+    border: 1px solid white;
+    
+}
+
+.card-body{ 
+    display: flex;
+    flex-direction: column;
+    width: 18rem;
+    height: 9rem;
+}
+
+
+.card-footer {
+   min-height: 2rem;
+}
